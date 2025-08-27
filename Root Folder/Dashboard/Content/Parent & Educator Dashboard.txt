@@ -1,0 +1,9 @@
+Parent & Educator Dashboard
+A secure area where parents and educators can track progress, access resources and monitor financial learning outcomes.
+
+Profile
+Manage user details and account settings here.
+
+Reports
+View reports of student progress and completed activities.
+Track student milestones and view achievements.
