@@ -1,70 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+  <!-- Header -->
+  <header>
+    <h1>MoneyWise Kids</h1>
+    <nav>
+      
+      <input type="text" placeholder="Search...">
+      <span>Profile Name</span>
+      <img src="Root Folder/Home/Images/profile_pic.jpg" alt="Profile Image" width="60" height="40">
+    </nav>
+  </header>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoneyWise Kids - Enquiry</title>
-    
-</head>
-<body>
+  <!-- Sidebar Navigation -->
+  <aside>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portals.html">Learning Portals</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </aside>
 
-    <!-- Header -->
-    <header>
-        <h1> MoneyWise Kids</h1>
-        <nav>
-            <input type="text" placeholder="Search...">
-            <span>Profile Name</span>
-            <img src="profile.jpg" alt="Profile Image" width="40" height="40">
-        </nav>
-    </header>
+  <!-- Main Content -->
+  <main>
+    <h2>Enquiries</h2>
+    <p>
+      Use this form to enquire about volunteering, sponsorship opportunities, 
+      or general questions about MoneyWise Kids.
+    </p>
 
-    <!-- Sidebar Navigation -->
-    <aside>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portals.html">Learning Portals</a></li>
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </aside>
+    <!-- FAQ Section -->
+    <section>
+      <h3>Frequently Asked Questions</h3>
+      <p>Coming soon: A list of common questions and answers.</p>
+    </section>
 
-    <!-- Main Content Area -->
-    <main>
-        <!-- FAQ Section -->
-        <section id="faq">
-            <h2>Frequently Asked Questions</h2>
-            <p>[FAQ content placeholder]</p>
-        </section>
+    <!-- Enquiry Form -->
+    <section>
+      <h3>Submit Your Enquiry</h3>
+      <form action="#" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
 
-        <!-- Enquiry Form Section -->
-        <section >
-            <h2>Submit an Enquiry</h2>
-            <form action="#" method="post">
-                <label for="first-name">First Name:</label><br>
-                <input type="text" id="first-name" name="first-name"><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
 
-                <label for="last-name">Last Name:</label><br>
-                <input type="text" id="last-name" name="last-name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
 
-                <label for="phone">Phone Number:</label><br>
-                <input type="tel" id="phone" name="phone"><br><br>
+        <label for="details">Details:</label><br>
+        <textarea id="details" name="details" rows="5"></textarea><br><br>
 
-                <label for="details">Enquiry Details:</label><br>
-                <textarea id="details" name="details" rows="5"></textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
 
-                <button type="submit">Submit Enquiry</button>
-            </form>
-        </section>
-    </main>
-
-      <!-- Footer -->
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 MoneyWise Kids | Contact us at info@moneywisekids.org</p>
   </footer>
