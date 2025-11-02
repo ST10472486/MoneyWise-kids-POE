@@ -236,7 +236,7 @@ function initializeLogin() {
       // Show success message
       alert(`Welcome back, ${username}!`);
       
-      // Redirect to dashboard
+      // Redirect to homepage
       window.location.href = 'dashboard.html';
     });
   }
