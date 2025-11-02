@@ -447,6 +447,52 @@ input[type="submit"]:hover,
   color: #4A5568;
 }
 
+/* 404 ERROR PAGE */
+.error404__main {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error404__container {
+  text-align: center;
+  max-width: 600px;
+}
+
+.error404__content {
+  padding: 2rem;
+}
+
+.error404__title {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #2B6CB0;
+  margin-bottom: 0;
+  line-height: 1;
+  font-family: 'Poppins', sans-serif;
+}
+
+.error404__message {
+  font-size: 1.1rem;
+  margin: 1.5rem 0;
+  color: #4A5568;
+}
+
+.error404__submessage {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #718096;
+}
+
+.error404__buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
 /*  RESPONSIVE DESIGN  */
 @media (max-width: 900px) {
   .header {
@@ -538,3 +584,18 @@ input[type="submit"]:hover,
   }
 }
 
+@media (max-width: 600px) {
+  .error404__title {
+    font-size: 5rem;
+  }
+  
+  .error404__buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .error404__buttons .portals__link {
+    width: 100%;
+    max-width: 300px;
+  }
+}

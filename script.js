@@ -311,14 +311,11 @@ function initializeEnquiryForm() {
       
       // Get form values (adjust field IDs based on your actual enquiry form)
       const formData = new FormData(enquiryForm);
-      const firstName = formData.get('fname') || formData.get('enquiry-fname');
-      const lastName = formData.get('lname') || formData.get('enquiry-lname');
+      const name = formData.get('name') || formData.get('enquiry-name');
       const email = formData.get('email') || formData.get('enquiry-email');
-      const phone = formData.get('phone') || formData.get('enquiry-phone');
-      const details = formData.get('details') || formData.get('enquiry-details');
       
-      if (firstName && lastName && email && phone && details) {
-        alert(`Thank you for your enquiry, ${firstName} ${lastName}! We've received your request and will respond to ${email} shortly.`);
+      if (name && email) {
+        alert(`Thank you for your enquiry, ${name}! We've received your request and will respond to ${email} shortly.`);
         
         // Clear the form
         enquiryForm.reset();
@@ -379,6 +376,36 @@ function displayDashboardUserInfo() {
 }
 
 // ========================================
+// HANDLE NON-EXISTENT PORTAL PAGES (404)
+// ========================================
+
+function handlePortalLinks() {
+  // List of portal pages that don't exist yet
+  const nonExistentPortals = [
+    'ages6-10.html',
+    'ages11-14.html',
+    'ages15-17.html'
+  ];
+  
+  // Get all links on the page
+  const allLinks = document.querySelectorAll('a[href]');
+  
+  allLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    
+    // Check if this link points to a non-existent portal
+    if (nonExistentPortals.some(portal => href.includes(portal))) {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert('This learning portal is currently under construction. We\'re working hard to bring you exciting financial literacy content!');
+        // Optionally redirect to 404 page or stay on current page
+        // window.location.href = '404.html';
+      });
+    }
+  });
+}
+
+// ========================================
 // INITIALIZE ALL FUNCTIONS
 // ========================================
 
@@ -392,4 +419,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initializeContactForm();
   initializeEnquiryForm();
   displayDashboardUserInfo();
+  handlePortalLinks();
 });
