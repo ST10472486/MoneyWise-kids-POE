@@ -423,6 +423,30 @@ input[type="submit"]:hover,
   border-radius: 8px;
 }
 
+/* DASHBOARD USER INFO */
+.dashboard__user-info {
+  margin-top: 1rem;
+}
+
+.user-info__item {
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  background-color: white;
+  border-left: 4px solid #2B6CB0;
+  border-radius: 6px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.user-info__item strong {
+  color: #2B6CB0;
+  min-width: 150px;
+}
+
+.user-info__item span {
+  color: #4A5568;
+}
+
 /*  RESPONSIVE DESIGN  */
 @media (max-width: 900px) {
   .header {
