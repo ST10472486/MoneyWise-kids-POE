@@ -1,3 +1,8 @@
+// Redirect to Login Screen
+    function goToLogin(){
+      window.location.href = "Login.html";
+    }
+
 // ========================================
 // SOCIAL MEDIA LINKS FUNCTIONALITY
 // ========================================
@@ -311,11 +316,15 @@ function initializeEnquiryForm() {
       
       // Get form values (adjust field IDs based on your actual enquiry form)
       const formData = new FormData(enquiryForm);
-      const name = formData.get('name') || formData.get('enquiry-name');
+      const firstName = formData.get('fname') || formData.get('enquiry-fname');
+      const lastName = formData.get('lname') || formData.get('enquiry-lname');
       const email = formData.get('email') || formData.get('enquiry-email');
+      const phone = formData.get('phone') || formData.get('enquiry-phone');
+      const details = formData.get('email') || formData.get('enquiry-email');
+
       
-      if (name && email) {
-        alert(`Thank you for your enquiry, ${name}! We've received your request and will respond to ${email} shortly.`);
+      if (firstName && lastName && email && phone &&  details) {
+        alert(`Thank you for your enquiry, ${firstName} ${lastName} ! We've received your request and will respond to ${email} shortly.`);
         
         // Clear the form
         enquiryForm.reset();
@@ -382,9 +391,9 @@ function displayDashboardUserInfo() {
 function handlePortalLinks() {
   // List of portal pages that don't exist yet
   const nonExistentPortals = [
-    'ages6-10.html',
-    'ages11-14.html',
-    'ages15-17.html'
+    'portals/age6-10.html',
+    'portals/age11-14.html',
+    'portals/age15-17.html'
   ];
   
   // Get all links on the page
