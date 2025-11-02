@@ -3,9 +3,9 @@
       window.location.href = "Login.html";
     }
 
-// ========================================
+
 // SOCIAL MEDIA LINKS FUNCTIONALITY
-// ========================================
+
 
 function initializeSocialMedia() {
   // Get all social media icons
@@ -47,9 +47,9 @@ function initializeSocialMedia() {
   });
 }
 
-// ========================================
+
 // PROFILE DROPDOWN FUNCTIONALITY
-// ========================================
+
 
 function initializeProfileDropdown() {
   const profileImg = document.querySelector('.header__profile-img');
@@ -104,9 +104,9 @@ function initializeProfileDropdown() {
   }
 }
 
-// ========================================
+
 // SEARCH BAR FUNCTIONALITY
-// ========================================
+
 
 function initializeSearch() {
   const searchInput = document.querySelector('.header__search');
@@ -190,9 +190,9 @@ function clearHighlights() {
   });
 }
 
-// ========================================
+
 // LOGIN FUNCTIONALITY
-// ========================================
+
 
 function initializeLogin() {
   const loginForm = document.querySelector('.login__form');
@@ -257,9 +257,9 @@ function checkLoginStatus() {
   }
 }
 
-// ========================================
+
 // DISPLAY USER PROFILE NAME
-// ========================================
+
 
 function displayUserName() {
   const profileNameElement = document.querySelector('.header__profile-name');
@@ -276,9 +276,9 @@ function displayUserName() {
   }
 }
 
-// ========================================
+
 // CONTACT FORM FUNCTIONALITY
-// ========================================
+
 
 function initializeContactForm() {
   const contactForm = document.querySelector('.contact__form');
@@ -303,9 +303,9 @@ function initializeContactForm() {
   }
 }
 
-// ========================================
+
 // ENQUIRY FORM FUNCTIONALITY
-// ========================================
+
 
 function initializeEnquiryForm() {
   const enquiryForm = document.querySelector('.enquiry__form');
@@ -335,9 +335,9 @@ function initializeEnquiryForm() {
   }
 }
 
-// ========================================
+
 // DASHBOARD USER INFO DISPLAY
-// ========================================
+
 
 function displayDashboardUserInfo() {
   // Check if we're on the dashboard page
@@ -384,9 +384,9 @@ function displayDashboardUserInfo() {
   }
 }
 
-// ========================================
+
 // HANDLE NON-EXISTENT PORTAL PAGES (404)
-// ========================================
+
 
 function handlePortalLinks() {
   // List of portal pages that don't exist yet
@@ -414,9 +414,9 @@ function handlePortalLinks() {
   });
 }
 
-// ========================================
+
 // INITIALIZE ALL FUNCTIONS
-// ========================================
+
 
 document.addEventListener('DOMContentLoaded', () => {
   initializeSocialMedia();
