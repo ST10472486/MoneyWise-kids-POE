@@ -387,16 +387,16 @@ Mozilla Developer Network (2025) Regular expressions. Available at: https://deve
 FormData API
 
 Mozilla Developer Network (2025) FormData. Available at: https://developer.mozilla.org/en-US/docs/Web/API/FormData (Accessed: 2 November 2025).
-W3Schools (no date) JavaScript FormData. Available at: https://www.w3schools.com/jsref/api_formdata.asp (Accessed: 2 November 2025).
+W3Schools (2025) JavaScript FormData. Available at: https://www.w3schools.com/jsref/api_formdata.asp (Accessed: 2 November 2025).
 
 CSS & Design
 BEM Methodology
 
-Yandex (2025) BEM — Block Element Modifier. Available at: https://en.bem.info/methodology/ (Accessed: 26 September 2024).
+Yandex (2025) BEM — Block Element Modifier. Available at: https://en.bem.info/methodology/ (Accessed: 26 September 2025).
 
 Flexbox Layout
 
-W3Schools (2025) CSS Flexbox. Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 27 September 2024).
+W3Schools (2025) CSS Flexbox. Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 27 September 2025).
 Mozilla Developer Network (2024) CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout (Accessed: 27 September 2024).
 
 Responsive Design
@@ -406,7 +406,7 @@ W3Schools (2025) CSS Responsive Web Design. Available at: https://www.w3schools.
 HTML5 Structure
 Semantic HTML
 
-W3Schools (2025) HTML5 Semantic Elements. Available at: https://www.w3schools.com/html/html5_semantic_elements.asp (Accessed: 25 August 2024).
+W3Schools (2025) HTML5 Semantic Elements. Available at: https://www.w3schools.com/html/html5_semantic_elements.asp (Accessed: 25 August 2025).
 Mozilla Developer Network (2024) HTML elements reference. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Element (Accessed: 25 August 2025).
 
 Sitemap and Robots
