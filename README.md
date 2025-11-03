@@ -397,7 +397,7 @@ Yandex (2025) BEM — Block Element Modifier. Available at: https://en.bem.info/
 Flexbox Layout
 
 W3Schools (2025) CSS Flexbox. Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 27 September 2025).
-Mozilla Developer Network (2024) CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout (Accessed: 27 September 2024).
+Mozilla Developer Network (2024) CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout (Accessed: 27 September 2025).
 
 Responsive Design
 
