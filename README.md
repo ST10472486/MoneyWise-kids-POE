@@ -278,9 +278,55 @@ Mobile (600px): Single-column layout with stacked navigation
   - Call-to-action buttons for navigation
   - Responsive design for all screen sizes
 
-Screenshots:
+**Screenshots**
 
+Navigation Menu:
+<img width="1920" height="960" alt="Screenshot 2025-11-03 193031" src="https://github.com/user-attachments/assets/1399f4cd-504c-4eaf-aa86-043443dbe8d8" />
 
+Home Page:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193120" src="https://github.com/user-attachments/assets/307d5e74-661f-4917-ab1f-53dae4cb8a30" />
+
+About Us Page:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193141" src="https://github.com/user-attachments/assets/c29fd5f4-0a41-486b-a8ef-d8d8298522da" />
+
+Services Page:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193155" src="https://github.com/user-attachments/assets/b1d5174d-8093-4be8-8966-52edf0ea1472" />
+
+Student Portals Page:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193204" src="https://github.com/user-attachments/assets/cc99232b-2691-4f37-8aaa-93140f0a7bfc" />
+
+Error Handling to enter Dashboard page if not a registered user:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193215" src="https://github.com/user-attachments/assets/3ea5d827-6be4-4d72-94ae-aea2559ca20f" />
+
+Login Page:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193215" src="https://github.com/user-attachments/assets/5d9f26cb-084f-4bc2-b16d-db687d36ba1c" />
+
+Login Succesful:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193243" src="https://github.com/user-attachments/assets/62479b40-93d8-48f6-b841-44a6f1c23127" />
+
+Login Unsuccesful: 
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193501" src="https://github.com/user-attachments/assets/69f1b2f5-3e89-4916-b822-257654c872b8" />
+
+Dashboard Page:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193253" src="https://github.com/user-attachments/assets/00e5a2a4-07b0-4e2a-8a80-51a532553bfa" />
+
+Enquiry Page:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193303" src="https://github.com/user-attachments/assets/2cb0ad09-ae74-4214-8a1b-c09096933028" />
+
+Enquiry Page info sent:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193435" src="https://github.com/user-attachments/assets/10866a34-5b43-4d82-8098-dbbf13da8b26" />
+
+Enquiry Page Error handling:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193447" src="https://github.com/user-attachments/assets/63e314b7-e5ce-49c1-ace2-01f35a2e7b85" />
+
+Contact Page:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193313" src="https://github.com/user-attachments/assets/2503a27c-2d93-4782-af2b-080dac5c39dc" />
+
+Contact Page Message sent:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193342" src="https://github.com/user-attachments/assets/fae888b8-3486-48d3-bbb4-69da742f0c22" />
+
+Contact Page Error handling:
+<img width="1920" height="1008" alt="Screenshot 2025-11-03 193351" src="https://github.com/user-attachments/assets/510d79ef-1413-4568-b7b2-2a4c77300c14" />
 
 #### Technical Improvements
 - Implemented BEM naming convention for CSS classes
@@ -305,6 +351,71 @@ Screenshots:
 
 This project was developed as an educational platform to teach financial literacy to children and teens. Special thanks to educators, parents, and financial experts who contributed to the curriculum design.
 
----
+
+**📚 References**
+
+LocalStorage API
+
+W3Schools (2025) JavaScript Web Storage API. Available at: https://www.w3schools.com/js/js_api_web_storage.asp (Accessed: 1 November 2025).
+Mozilla Developer Network (2025) Window.localStorage. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage (Accessed: 1 November 2025).
+
+Form Validation
+
+W3Schools (2025) JavaScript Form Validation. Available at: https://www.w3schools.com/js/js_validation.asp (Accessed: 3 November 2025).
+Mozilla Developer Network (2025) HTMLFormElement: submit event. Available at: https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event (Accessed: 1 November 2025).
+
+DOM Manipulation
+
+W3Schools (2025) JavaScript HTML DOM. Available at: https://www.w3schools.com/js/js_htmldom.asp (Accessed: 1 November 2025).
+Mozilla Developer Network (2025) Document Object Model (DOM). Available at: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model (Accessed: 3 November 2025).
+
+Event Listeners
+
+W3Schools (2025) JavaScript addEventListener(). Available at: https://www.w3schools.com/js/js_htmldom_eventlistener.asp (Accessed: 1 November 2025).
+Mozilla Developer Network (2025) EventTarget.addEventListener(). Available at: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener (Accessed: 1 November 2025).
+
+TreeWalker API (Search Functionality)
+
+Mozilla Developer Network (2025) TreeWalker. Available at: https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker (Accessed: 2 November 2025).
+W3Schools (no date) JavaScript HTML DOM Navigation. Available at: https://www.w3schools.com/js/js_htmldom_navigation.asp (Accessed: 2 November 2025).
+
+Regular Expressions (Search Highlighting)
+
+W3Schools (2025) JavaScript Regular Expressions. Available at: https://www.w3schools.com/js/js_regexp.asp (Accessed: 2 November 2025).
+Mozilla Developer Network (2025) Regular expressions. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions (Accessed: 2 November 2025).
+
+FormData API
+
+Mozilla Developer Network (2025) FormData. Available at: https://developer.mozilla.org/en-US/docs/Web/API/FormData (Accessed: 2 November 2025).
+W3Schools (no date) JavaScript FormData. Available at: https://www.w3schools.com/jsref/api_formdata.asp (Accessed: 2 November 2025).
+
+CSS & Design
+BEM Methodology
+
+Yandex (2025) BEM — Block Element Modifier. Available at: https://en.bem.info/methodology/ (Accessed: 26 September 2024).
+
+Flexbox Layout
+
+W3Schools (2025) CSS Flexbox. Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 27 September 2024).
+Mozilla Developer Network (2024) CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout (Accessed: 27 September 2024).
+
+Responsive Design
+
+W3Schools (2025) CSS Responsive Web Design. Available at: https://www.w3schools.com/css/css_rwd_intro.asp (Accessed: 26 September 2025).
+
+HTML5 Structure
+Semantic HTML
+
+W3Schools (2025) HTML5 Semantic Elements. Available at: https://www.w3schools.com/html/html5_semantic_elements.asp (Accessed: 25 August 2024).
+Mozilla Developer Network (2024) HTML elements reference. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Element (Accessed: 25 August 2025).
+
+Sitemap and Robots
+
+SEOptimer. (2025) Robots.txt Generator. Available at: https://www.seoptimer.com/robots-txt-generator
+ (Accessed: 2 November 2025).
+
+SEOptimer Sitemap Generator
+SEOptimer. (2025) Sitemap Generator. Available at: https://www.seoptimer.com/sitemap-generator
+ (Accessed: 2 November 2025).
 
 **Note**: This is a front-end demonstration project. For production use, implement proper backend authentication, database storage, and security measures.
